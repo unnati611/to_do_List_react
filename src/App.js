@@ -11,7 +11,10 @@ export default function App() {
         <Route path="/" element={<Home />}>
           <Route index element={<Home />} />
         </Route>
-        <Route path="/login" element={<LoginForms />} />
+        <Route path="/to_do_List_react" element={<Home />}>
+          <Route index element={<Home />} />
+        </Route>
+        <Route path="/to_do_List_react/login" element={<LoginForms />} />
       </Routes>
     </BrowserRouter>
   );
